@@ -269,6 +269,7 @@ ul.services-content {
 }
 .services-content img {
 	width: 100%;
+	max-height: 500px;
 	margin-bottom: 20px;
 }
 .services-content li h4 {
@@ -291,6 +292,11 @@ ul.services-content {
 	}
 	.services-content li p {
 		padding: 0;
+	}
+	.services-content img {
+		width: 100%;
+		max-height: 1000px;
+		margin-bottom: 20px;
 	}
 }
 /*contact area*/
