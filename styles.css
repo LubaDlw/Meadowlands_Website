@@ -37,6 +37,9 @@ header {
 header h2 span {
 	color: #bf0a30;
 }
+.h2{
+	justify-content: center;
+}
 header ul.nav {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -145,6 +148,11 @@ section p {
 	text-transform: uppercase;
 }
 .banner-area a.banner-btn {
+	padding: 15px 35px;
+	background: #bf0a30;
+	text-transform: uppercase;
+}
+a.banner-btn {
 	padding: 15px 35px;
 	background: #bf0a30;
 	text-transform: uppercase;
