@@ -415,3 +415,69 @@ footer {
 .website__rights{
     color: #000;
 }
+
+/* About Us Area */
+.about-us-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+    color: #000;
+}
+
+.about-us-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.about-us-content img {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: 50%; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    margin-bottom: 20px;
+}
+
+.about-us-content li h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.about-us-content li p {
+    margin: 0;
+}
+
+@media (max-width:1000px) {
+    .about-us-content li {
+        flex-basis: 100%;
+        margin-bottom: 65px;
+    }
+    .about-us-content li:last-child {
+        margin-bottom: 0;
+    }
+    .about-us-content li p {
+        padding: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .about-us-area {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width:600px) {
+    .about-us-area {
+        padding: 125px 30px;
+    }
+}
