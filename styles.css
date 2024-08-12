@@ -113,7 +113,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(images/a1.jpeg);
+	background-image: url(images/church.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -193,7 +193,7 @@ ul.about-content {
 }
 .about-left {
 	flex-basis: 30%;
-	background-image: url(images/2.jpg);
+	background-image: url(images/churchDark.jpg);
 }
 .about-right {
 	flex-basis: 70%;
