@@ -11,12 +11,14 @@ body {
 }
 ul, ul.nav {
 	list-style: none;
+	font-size: large;
     
 }
 a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
+	
 }
 header {
 	position: absolute;
@@ -70,10 +72,12 @@ header ul.nav li:last-child {
 	}
 	header ul.nav li {
 		margin: 0 7px;
+		
 	}
 	.about-right p {
 		display: none;
 	}
+	
 }
 /*banner area*/
 
