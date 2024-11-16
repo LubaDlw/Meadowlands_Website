@@ -20,6 +20,8 @@ a {
 	color: inherit;
 	
 }
+
+header a{}
 header {
 	position: absolute;
 	top: 0;
@@ -27,15 +29,14 @@ header {
 	z-index: 10;
 	width: 100%;
 	display: flex;
-	
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	color: #bf0a30;
     background-color: white;
 	padding: 35px 100px 0;
-    height: 186px;
 }
+
+
 header h2 span {
 	color: #bf0a30;
 }
@@ -177,6 +178,9 @@ a.banner-btn {
 }
 /*about area*/
 
+#about{
+	margin-bottom: 7%;
+}
 ul.about-content {
 	width: 100%;
 	display: -webkit-flex;
@@ -197,7 +201,7 @@ ul.about-content {
 }
 .about-left {
 	flex-basis: 30%;
-	background-image: url(images/churchDark.jpg);
+	background-image: url('https://i.pinimg.com/736x/3b/1d/e6/3b1de65680b2ab3f907e75b75a5bbec2.jpg');
 }
 .about-right {
 	flex-basis: 70%;
