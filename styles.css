@@ -223,6 +223,10 @@ ul.about-content {
 	text-align: left;
 	padding-left: 0;
 }
+
+.about-area {
+	padding-bottom: 30%;
+}
 .section-title {
 	text-transform: uppercase;
 	font-size: 50px;
@@ -444,6 +448,7 @@ footer {
     align-items: center;
     padding: 110px 100px;
     color: #000;
+	margin-bottom: 10px;
 }
 
 .about-us-content {
@@ -463,7 +468,7 @@ footer {
     width: 100%; /* Ensure the image takes the full width of its container */
     height: 50%; /* Set a fixed height */
     object-fit: cover; /* Ensure the image covers the container without distortion */
-    margin-bottom: 20px;
+    
 }
 
 .about-us-content li h4 {
