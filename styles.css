@@ -21,12 +21,13 @@ a {
 	
 }
 
-header a{}
+
 header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
+	height: 100px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -34,6 +35,12 @@ header {
 	color: #bf0a30;
     background-color: white;
 	padding: 35px 100px 0;
+}
+
+header img {
+    width: 250px; /* Adjust width as needed */
+    height: auto; /* Maintains the aspect ratio */
+	margin-bottom: 5px;
 }
 
 
